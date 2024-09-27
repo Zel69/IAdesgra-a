@@ -83,5 +83,8 @@ function vereficaResposta(Seleciona) {
 function mostrarResultado() {
     caixaPrincipal.computedStyleMap.display = "none";
 
-    caixaResultado.style.display = "block"
+    caixaResultado.style.display = "block";
+
+    setTimeout(() => caixaResultado.classList.add("mostrar"),10);
+    textoResultado.textContent = "Você acertou $ {pontuação} de $ {perguntas.length}"
 }
