@@ -79,3 +79,9 @@ function vereficaResposta(Seleciona) {
         mostarResultado();
     }
 }
+
+function mostrarResultado() {
+    caixaPrincipal.computedStyleMap.display = "none";
+
+    caixaResultado.style.display = "block"
+}
