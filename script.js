@@ -8,42 +8,42 @@ const textoResultado = document.querySelector(".texto-resultado");
 //Arry de objeto contendo as perguntas e alternativas
 const perguntas = [
     {
-        enunciado: "Qual a idade máxima que um cachorro pode chegar?",
+        enunciado: "No universo de Ordem Paranormal, o que é necessário para realizar um Ritual de Conjuração de Entidades Maiores",
         alternativas: [
-            "15 anos",
-            "20 anos"
+            "Um conjunto específico de runas, oferendas significativas e conhecimento avançado",
+            "Apenas uma inenção clara e um cŕiculo de proteção"
         ],
         correta: 0 // A primeira alternativa é a correta
     },
     {
-        enunciado: "Quantos dias há em um ano bissexto?",
+        enunciado: "Em Ordem Paranormal, o que possui além da 'membrana' que separa a realidade",
         alternativas: [
-            "365",
-            "366"
+            "O paranormal",
+            "o pós vida"
         ],
-        correta: 1 // A segunda alternativa é a correta
+        correta: 0 // A primeira alternativa é a correta
     },
     {
-        enunciado: "Qual é o maior planeta do nosso sistema solar?",
+        enunciado: "Quais são os elementos de ordem paranormal",
         alternativas: [
-            "Terra",
-            "Júpiter"
+            "Fé, alma, escuridão, misticismo e mantra",
+            "Sangue. Conhecimento, Energia, Morte e Medo"
         ],
         correta: 1
     },
     {
-        enunciado: "Qual é a capital da França?",
+        enunciado: "Em Ordem paranormal, sigílos do outro lado escritos em uma língua incompreensível, podem ser lidos através de um ritual do elemento de:",
         alternativas: [
-            "Paris",
-            "Londres"
+            "Conhecimento",
+            "Morte"
         ],
         correta: 0
     },
     {
-        enunciado: "Qual é a fórmula química da água?",
+        enunciado: "Os Elementos Paranormais, podem ser usados e compreendidos através de Transcendência e rituais, mas apenas um elemento não pode ser manipulado como os outros, este elemento é:",
         alternativas: [
-            "H2O",
-            "CO2"
+            "O Medo",
+            "A Morte"
         ],
         correta: 0
     }
