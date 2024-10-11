@@ -18,7 +18,7 @@ const perguntas = [
     {
         enunciado: "o que possui além da 'membrana' que separa a realidade? ",
         alternativas: [
-            "O Outro Lado, aonde etermina o pós via e alguém inocente em relaçao ao paranormal, retornando com uma criatura paranormal",
+            "O Outro Lado, aonde determina o pós vida e alguém inocente em relaçao ao paranormal, retornando como uma criatura paranormal",
             "O Outro Lado, aonde fica as incompreenções do Paranormal e seus elementos"
         ],
         correta: 1 // A segunda alternativa é a correta
