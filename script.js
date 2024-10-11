@@ -8,31 +8,31 @@ const textoResultado = document.querySelector(".texto-resultado");
 //Arry de objeto contendo as perguntas e alternativas
 const perguntas = [
     {
-        enunciado: "Qual a idade máxima que um cachorro pode chegar?",
+        enunciado: "O que é necessário para realizar um ritual?",
         alternativas: [
-            "15 anos",
-            "20 anos"
+            "Um conjunto específico de sigilos, oferendas significativas e conhecimento avançado",
+            "Apenas uma intenção clara e um círculo de proteção"
         ],
         correta: 0 // A primeira alternativa é a correta
     },
     {
-        enunciado: "Quantos dias há em um ano bissexto?",
+        enunciado: "o que possui além da 'membrana' que separa a realidade? ",
         alternativas: [
-            "365",
-            "366"
+            "O Outro Lado, aonde etermina o pós via e alguém inocente em relaçao ao paranormal, retornando com uma criatura paranormal",
+            "O Outro Lado, aonde fica as incompreenções do Paranormal e seus elementos"
         ],
         correta: 1 // A segunda alternativa é a correta
     },
     {
-        enunciado: "Qual é o maior planeta do nosso sistema solar?",
+        enunciado: "Quais ão os elementos de Orem Paranormal?",
         alternativas: [
-            "Terra",
-            "Júpiter"
+            "Fé, Alma, Escurião, Misticismo e Mantra",
+            "Sangue, Conhecimento, Energia, Morte e Medo"
         ],
         correta: 1
     },
     {
-        enunciado: "Qual é a capital da França?",
+        enunciado: "",
         alternativas: [
             "Paris",
             "Londres"
