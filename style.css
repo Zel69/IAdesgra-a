@@ -5,11 +5,11 @@
         /* cores da caixa principal */
     --cor-principal: #D5CEA3;
     /* cores da caixa secundaria */
-    --cor-secundaria: #FEC260;
+    --cor-secundaria: #1b1100;
         /* cor texto quest/Buttom */
     --cor-destaque: #ffd700;
         /* cor do texto pergunta */
-    --cor-texto: #423F3E;
+    --cor-texto: #ffb196;
         /* cor fadebuttom */
     --cor-fadeButtom: #ECB365;
 }
