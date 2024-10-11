@@ -32,18 +32,18 @@ const perguntas = [
         correta: 1
     },
     {
-        enunciado: "",
+        enunciado: "Sigílos paranormais podem ser lidos através do elemento de:",
         alternativas: [
-            "Paris",
-            "Londres"
+            "Conhecimento",
+            "Morte"
         ],
         correta: 0
     },
     {
-        enunciado: "Qual é a fórmula química da água?",
+        enunciado: "Qual elemento paranormal não pode ser compreendido ou entendido",
         alternativas: [
-            "H2O",
-            "CO2"
+            "O Medo",
+            "A Morte"
         ],
         correta: 0
     }
