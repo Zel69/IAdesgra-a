@@ -8,42 +8,42 @@ const textoResultado = document.querySelector(".texto-resultado");
 //Arry de objeto contendo as perguntas e alternativas
 const perguntas = [
     {
-        enunciado: "No universo de Ordem Paranormal, o que é necessário para realizar um Ritual de Conjuração de Entidades Maiores",
+        enunciado: "Qual a idade máxima que um cachorro pode chegar?",
         alternativas: [
-            "Um conjunto específico de runas, oferendas significativas e conhecimento avançado",
-            "Apenas uma inenção clara e um cŕiculo de proteção"
+            "15 anos",
+            "20 anos"
         ],
         correta: 0 // A primeira alternativa é a correta
     },
     {
-        enunciado: "Em Ordem Paranormal, o que possui além da 'membrana' que separa a realidade",
+        enunciado: "Quantos dias há em um ano bissexto?",
         alternativas: [
-            "O paranormal",
-            "o pós vida"
+            "365",
+            "366"
         ],
-        correta: 0 // A primeira alternativa é a correta
+        correta: 1 // A segunda alternativa é a correta
     },
     {
-        enunciado: "Quais são os elementos de ordem paranormal",
+        enunciado: "Qual é o maior planeta do nosso sistema solar?",
         alternativas: [
-            "Fé, alma, escuridão, misticismo e mantra",
-            "Sangue. Conhecimento, Energia, Morte e Medo"
+            "Terra",
+            "Júpiter"
         ],
         correta: 1
     },
     {
-        enunciado: "Em Ordem paranormal, sigílos do outro lado escritos em uma língua incompreensível, podem ser lidos através de um ritual do elemento de:",
+        enunciado: "Qual é a capital da França?",
         alternativas: [
-            "Conhecimento",
-            "Morte"
+            "Paris",
+            "Londres"
         ],
         correta: 0
     },
     {
-        enunciado: "Os Elementos Paranormais, podem ser usados e compreendidos através de Transcendência e rituais, mas apenas um elemento não pode ser manipulado como os outros, este elemento é:",
+        enunciado: "Qual é a fórmula química da água?",
         alternativas: [
-            "O Medo",
-            "A Morte"
+            "H2O",
+            "CO2"
         ],
         correta: 0
     }
@@ -78,13 +78,4 @@ function vereficaResposta(Seleciona) {
     } else {
         mostarResultado();
     }
-}
-
-function mostrarResultado() {
-    caixaPrincipal.computedStyleMap.display = "none";
-
-    caixaResultado.style.display = "block";
-
-    setTimeout(() => caixaResultado.classList.add("mostrar"),10);
-    textoResultado.textContent = "Você acertou $ {pontuação} de $ {perguntas.length}"
 }
